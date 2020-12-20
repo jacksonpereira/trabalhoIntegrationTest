@@ -11,7 +11,6 @@ import java.util.List;
 
 public class GeneralSteps {
 
-//    @Entao("^o usuário deve ver (.*) com valor de \"([^\"]*)\"$")
     @E("^o usuário deve ver (.*) com valor de \"([^\"]*)\"$")
     @Then("^user should see (.*) with value \"([^\"]*)\"$")
     public void userShouldSeeLoginWithValue(String field, String value) throws Throwable {
